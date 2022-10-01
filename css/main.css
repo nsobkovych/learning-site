@@ -46,6 +46,7 @@ p {
 
 .link {
   border-radius: 4px;
+  display: inline-block;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -86,4 +87,32 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .about-app {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .pair-note {
+    order: 2;
+  }
+
+  .pair-img {
+    order: 1;
+  }
 }
